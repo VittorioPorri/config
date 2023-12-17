@@ -1,0 +1,17 @@
+--Plugins
+require('plugins')
+require('file-explorer')
+require('mason-config')
+require('gopls')
+require('clangd')
+require('pyright')
+require('code-completion')
+require('custom-keys')
+require('styling')
+require('syntax-highlight')
+require('file-finder')
+require('statusbar')
+require('indent-blankline')
+require('autopairs')
+--Options
+require ('options')
