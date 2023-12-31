@@ -13,5 +13,5 @@ require('file-finder')
 require('statusbar')
 require('indent-blankline')
 require('autopairs')
---Options
+require('dashboard')
 require ('options')
