@@ -44,4 +44,10 @@ return require('packer').startup(function(use)
 		"windwp/nvim-autopairs",
 		config = function() require("nvim-autopairs").setup {} end
 	}
+    --Dashboard
+    use {
+        "goolord/alpha-nvim", 
+        config = function () require'alpha'.setup(require'alpha.themes.dashboard'.config) end
+    } 
+ 
 end)
